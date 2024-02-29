@@ -98,6 +98,14 @@ packer.startup({
 
     -- JSON 增强
     use("b0o/schemastore.nvim")
+
+    -- use("iamcco/markdown-preview.nvim")
+
+    use {
+       "euclio/vim-markdown-composer",
+        run = "cargo build --release",
+    }
+
   end,
   config = {
     -- 并发数限制
