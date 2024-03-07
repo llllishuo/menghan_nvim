@@ -45,8 +45,8 @@ mason_config.setup({
     "rust_analyzer",
     "taplo",
     "yamlls",
-    "gopls",
     "clangd",
+    -- "gopls",
     "cmake",
   },
 })
@@ -69,7 +69,7 @@ local servers = {
   tailwindcss = require("lsp.config.tailwindcss"),
   rust_analyzer = require("lsp.config.rust"),
   taplo = require("lsp.config.taplo"), -- toml
-  gopls = require("lsp.config.gopls"),
+  -- gopls = require("lsp.config.gopls"),
   -- remark_ls = require("lsp.config.markdown"),
   clangd = require("lsp.config.clangd"),
   cmake = require("lsp.config.cmake"),
