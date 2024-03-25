@@ -149,11 +149,6 @@ _G.packer_plugins = {
     path = "/root/.local/share/nvim/site/pack/packer/start/lush.nvim",
     url = "https://github.com/rktjmp/lush.nvim"
   },
-  ["markdown-preview.nvim"] = {
-    loaded = true,
-    path = "/root/.local/share/nvim/site/pack/packer/start/markdown-preview.nvim",
-    url = "https://github.com/iamcco/markdown-preview.nvim"
-  },
   ["mason-lspconfig.nvim"] = {
     loaded = true,
     path = "/root/.local/share/nvim/site/pack/packer/start/mason-lspconfig.nvim",
@@ -283,6 +278,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/root/.local/share/nvim/site/pack/packer/start/vim-bbye",
     url = "https://github.com/moll/vim-bbye"
+  },
+  ["vim-markdown-composer"] = {
+    loaded = true,
+    path = "/root/.local/share/nvim/site/pack/packer/start/vim-markdown-composer",
+    url = "https://github.com/euclio/vim-markdown-composer"
   },
   ["vim-vsnip"] = {
     loaded = true,
