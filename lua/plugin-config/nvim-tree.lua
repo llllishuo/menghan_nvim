@@ -7,6 +7,8 @@ end
 -- 列表操作快捷键
 local list_keys = require('keybindings').nvimTreeList
 nvim_tree.setup({
+    prefer_startup_root = true,
+    sync_root_with_cwd = true,
     -- 不显示 git 状态图标
     git = {
         enable = false,
